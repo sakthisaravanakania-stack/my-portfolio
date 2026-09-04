@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white
+}
+img{
+    margin: 30px;
+    height: 400px;
+    width: 400px;
+}
+.picture{
+    text-align: center;
+}
+.content h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.content h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(150, 160, 7);
+    margin-bottom: 5px;
+}
+.content p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.buttons{
+    text-align: center;
+} 
+.buttons button{
+    cursor: pointer;
+    border: navajowhite;
+    border-radius: 10px;
+    background-color: rgb(175, 187, 1);
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.buttons button:hover{
+    transform: translateY(2px);
+    background-color: rgb(202, 123, 248);
+}
+.last{
+    text-align: center;
+}
+.last button{ 
+    color: white;
+    background-color: rgb(67, 99, 241);
+    cursor: pointer;
+    border: navajowhite;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.last button:hover{
+    background-color: rgb(42, 9, 58);
+    transform: translateY(-2px);
+}
+.social h2{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.social p{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.social-icons {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.social-icons a{
+    text-decoration: none;
+}
+.email h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.email h4{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.line h2{
+    font-size: 30px;
+    color: darkorchid;
+    text-align: center;
+
+}
+
+@media(max-width:769px){
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    .buttons button{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:445px){
+    .content h1{
+        font-size: 40px;
+    }
+    .content h2{
+        font-size: 20px;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    .social h2{
+        font-size: 24px;
+    }
+    .social p{
+        font-size: 14px;
+    }
+    .email h3{
+        font-size: 14px;
+    }
+    .email h4{
+        font-size: 14px;
+    }
+    .line h2{
+        font-size: 22px;
+    }
+}
